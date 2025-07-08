@@ -3,7 +3,7 @@ defined('IN_YZMPHP') or exit('Access Denied');
 return array(
 
     //系统配置
-    'auth_key'           => 'TEZTYUQ0N1BZVmGCW4BeFSrmLsoq8ENh',    //系统密钥
+    'auth_key' => 'h92RaIi6IemuIUDorGNL71eRumzOliAc',    //系统密钥
     'error_page'         => '404.html',    //错误提示页面，非调试模式有效
     'error_log_save'     => true,          //是否保存系统错误日志，非调试模式有效
     'site_theme'         => 'default',     //站点默认主题目录
@@ -11,14 +11,14 @@ return array(
     'set_pathinfo'       => false,         //Nginx默认不支持PATHINFO模式，需配置此项为true，则Nginx可支持PATHINFO，系统默认为false
     
     //数据库配置
-    'db_type'            => 'pdo',          // 数据库链接扩展 , 支持 pdo | mysqli | mysql
-    'db_host'            => '127.0.0.1',    // 服务器地址
-    'db_name'            => 'yzmcms',       // 数据库名
-    'db_user'            => 'root',         // 用户名
-    'db_pwd'             => '123456',       // 密码
-    'db_port'            => 3306,           // 端口
+    'db_type' => 'pdo',          // 数据库链接扩展 , 支持 pdo | mysqli | mysql
+    'db_host' => '127.0.0.1',    // 服务器地址
+    'db_name' => 'test',       // 数据库名
+    'db_user' => 'root',         // 用户名
+    'db_pwd' => '3.3.',       // 密码
+    'db_port' => 3306,           // 端口
     'db_charset'         => 'utf8',      // 字符集
-    'db_prefix'          => 'yzm_',         // 数据库表前缀
+    'db_prefix' => 'lry_',         // 数据库表前缀
     
     //路由配置
     'route_config'       => array (
