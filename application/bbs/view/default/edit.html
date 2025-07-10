@@ -1,0 +1,66 @@
+	{m:include "bbs","header"} 
+	{if $is_vip}
+	<style type="text/css">
+		.input-text{display:inline-block;width:450px;height: 38px;line-height:38px;border-radius: 2px 0 0 2px;font-size:14px;background-color: #fff;border:1px solid #e6e6e6;color:#000;padding:0 5px;position:absolute;left:110px;}
+		.upload-btn{position:absolute;left:580px;top:5px;background:#5a98de;color:#fff;display: inline-block;text-align: center;cursor: pointer;padding:3px 10px;border-radius:3px;transition:all 0.3s}
+		.upload-btn:hover{background:#0a6999;color:#fff;text-decoration:none}
+	</style>
+	<link href="{STATIC_URL}iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="{STATIC_URL}js/yzm_common.js"></script>
+	{/if}
+	<div class="container" style="background: #fff;padding: 10px;color: red;box-sizing: border-box;margin-top: 10px;">
+		<p>1.系统自带广告检测机制，如有发布广告者，自动封号处理！</p>
+		<p>2.如您发布的帖子中需要上传图片，请将图片大小控制在1MB之内，谢谢配合！</p>
+	</div>
+	<div class="yzm_main yzm_add container">
+		<h3><b>编辑帖子</b></h3>
+		<form action="" method="post" onsubmit="return yzm_bbs_content(this, '{U('edit')}')">
+			<input type="hidden" name="id" value="{$post_data[id]}">
+			<div class="yzm_col">
+				<span class="yzm_span">所属板块：</span>
+				<select name="plate_id" id="plate_id">
+					<option value="0">请选择</option>
+					{loop $forum_plate $v}
+					<option value="{$v[plate_id]}" {if $v['plate_id']==$post_data['plate_id']} selected{/if}>{$v[plate_name]}</option>
+					{/loop}
+				</select>
+			</div>
+			<div class="yzm_col">
+				<span class="yzm_span">标题：</span>
+				<input type="text" name="title" id="title" class="text_input" placeholder="必填字段" value="{$post_data[title]}" />
+			</div>
+			<div class="yzm_col">
+				<span class="yzm_span">关键字：</span>
+				<input type="text" name="keywords" id="keywords" class="text_input" placeholder="选填字段" value="{$post_data[keywords]}" />
+			</div>
+			<div class="yzm_col">
+				<textarea name="content" id="content" placeholder="请输入内容">{$post_data[content]}</textarea>
+			</div>
+			{if $is_vip}
+			<div class="yzm_col">
+				<span class="yzm_span">附件上传：</span>
+				{php yzm_base::load_sys_class('form','',0); echo form::attachment('attachment', $post_data['attachment'], 'width:450px');}
+			</div>	
+			{/if}
+			<div class="yzm_col">
+				<span class="yzm_span">验证码：</span><input type="text" name="code"  id="code" class="text_input code_input"/> <img src="{U('api/index/code')}" alt="code" class="code_img" onclick="this.src=this.src+'?'"/>
+			</div>
+			<div>
+				<input type="submit" name="dosubmit" value="立刻发布" class="yzm_button yzm_font"/>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="{STATIC_URL}js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="{STATIC_URL}plugin/ueditor/ueditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="{STATIC_URL}plugin/ueditor/ueditor.all.min.js"> </script>
+	<script type="text/javascript" charset="utf-8" src="{STATIC_URL}plugin/ueditor/lang/zh-cn/zh-cn.js"></script>
+	<script type="text/javascript"> 
+		var site_url = '{SITE_URL}';
+		var ue = UE.getEditor("content",{
+            toolbars:[[ "fullscreen","source","|","undo","redo","|",
+            "bold","italic","underline","blockquote","forecolor","|","fontfamily","fontsize","insertcode","|","simpleupload","link","unlink","emotion","date","time","drafts"]],wordCount:false,elementPathEnabled:false,initialFrameHeight:300
+        }); 
+	</script>
+	<script type="text/javascript" src="{STATIC_URL}plugin/layer/layer.js"></script>	  
+	<script type="text/javascript" src="{STATIC_URL}bbs/js/yzm_bbs_js.js"></script>
+	{m:include "bbs","footer"} 

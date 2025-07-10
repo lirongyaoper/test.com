@@ -1,0 +1,20 @@
+@charset "utf-8";
+/**
+ * YZMCMS轻论坛
+ * @author           袁志蒙  
+ * @license          http://www.yzmcms.com
+ */
+/* CSS Document */
+body{font:14px Comic Sans MS,Microsoft YaHei,Microsoft JhengHei,Arial;line-height:25px;padding:0px;margin:0px;background:#eee;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0px;padding:0px;}
+table{border-collapse:collapse;}
+a,img{border:0;}
+ol,ul{list-style:none}
+input,textarea,select{outline:none}
+a{color:#454545;text-decoration:none; transition:color 0.2s;}
+a:hover{color:#009688;}
+.clearfix{clear:both;width:0px;height:0px;overflow:hidden;}
+
+/* 网站容器 */
+.container{margin:auto;max-width:768px;border:solid 0px red;}
+.yzm_header{overflow:hidden;position:fixed;left:0;top:0;z-index:10000;width:100%;height:60px;border-bottom:1px solid #404553;border-radius:0;background:#393D49;}.yzm_header a{color:rgba(255,255,255,.7);font-size:16px}.yzm_header a:hover{color:rgba(255,255,255);}.yzm_logo{float:left;padding:10px 0 0 10px}.yzm_logo img{width:130px;}.yzm_nav_right{float:right}.yzm_nav_right span{width:50px;height:60px;line-height:60px;float:left}.yzm_nav_right span a{width:100%;display:block;}.yzm_nav_right span a:hover{color:#fff;}.yzm_nav_right .yzm_login_status{width:125px;height:60px;}.yzm_nav_right .yzm_login_status span{display:block;width:70px;overflow:hidden;text-overflow:ellipsis;float:left;text-align:right;transition:all 0.3s}.yzm_login_status img{height:35px;width:35px;margin-left:5px;margin-top:10px;border-radius:100%}.yzm_nav_right .yzm_login_status a:hover>span{color:#fff;}.yzm_user_menu{width:100px;float:right;line-height:36px;padding:5px 0;box-shadow:0 2px 4px rgba(0,0,0,.12);border:1px solid #d2d2d2;background-color:#fff;border-radius:2px;white-space:nowrap;display:none}.yzm_user_menu li a{color:#333;display:block;padding-left:15px;text-align:left}.yzm_user_menu li a:hover{background:#eee;color:#333}.yzm_login_status:hover>ul{display:block}.yzm_header_children{margin-top:60px;background:#fff;padding:15px;}.yzm_header_children .yzm_nav_children .yzm_nav_current,.yzm_nav_children li a:hover{color:#009688;}.yzm_header_children .yzm_nav_children{overflow:hidden;}.yzm_header_children .yzm_nav_children li{float:left;width:25%;text-align:center;padding-bottom:10px;}.yzm_header_children button{text-align:center;margin:10px auto 0 auto;display:block;border:none;background:#5FB878;border-radius:5px;font-size:16px;padding:0 18px;height:38px;line-height:38px;color:#fff;}.yzm_font{font:14px Comic Sans MS,Microsoft YaHei,Microsoft JhengHei,Arial  !important;}.yzm_search{text-align:center}.yzm_search_input{width:80%;height: 33px;line-height: 33px;border: 1px solid #d2d2d2;padding: 0 5px;background: #fff;border-radius:3px}.yzm_search_button{background:transparent;border:none;color:#666;cursor:pointer;font-size:14px}.yzm_page{margin:20px 0 10px 0;height:30px;line-height:30px;text-align:center}.yzm_page .pageinfo{margin-right:3px;color:#808080;font-size:14px;padding:4px 10px;border:1px solid #aaa;background:#fff}.yzm_page .pageinfo strong{font-weight:normal;margin:0 3px}.yzm_page a{border:1px solid #aaa;background:#fff;color:#808080;padding:4px 10px;margin-left:5px;transition:all 0.2s}.yzm_page a:hover,.yzm_page .curpage{background:#333;color:#fff;text-decoration:none;border:1px solid #000;}.yzm_page .nopage{cursor:not-allowed;}.yzm_page .nopage:hover{background:#fff;color:#808080;border:1px solid #aaa;}.yzm_footer{background:#393D49;color:#bbb;padding:20px 15px;text-align:center;}.yzm_footer a{color:#dadada;}.yzm_footer a:hover{color:#fafafa;}.scrolltop{width:50px;height:100px;background-color:rgb(0,150,136);border:1px solid #eee;z-index:1;bottom:70px;left:50%;margin-left:570px;margin-top:-50px;position:fixed;}.scrolltop a{width:50px;height:49px;display:block;text-align:center;line-height:49px;font-size:12px;color:#fff;text-decoration:none;transition:all 0.3s}.scrolltop a:hover{background-color:rgb(26,160,148)}.posts{border-bottom:1px solid #eee;}

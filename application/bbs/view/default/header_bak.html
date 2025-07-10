@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>{$seo_title}</title>
+	<meta name="keywords" content="{$keywords}" />
+	<meta name="description" content="{$description}" />
+	<link rel="stylesheet" href="{STATIC_URL}bbs/css/yzm_bbs_common.css">
+	<link rel="stylesheet" href="{STATIC_URL}bbs/css/yzm_bbs_index.css">
+</head>
+<body>
+	<div class="yzm_header">
+		<div class="container">
+		    <a class="yzm_logo" href="{$site[site_url]}">
+		      <img src="{STATIC_URL}bbs/images/bbs_logo.png" alt="YZMCMS轻论坛" title="YZMCMS轻论坛">
+		    </a>
+		    <ul class="yzm_nav">
+		       <!-- <li><a href="{$site[site_url]}bbs">论坛首页</a></li> -->
+		       {m:nav field="catid,catname,arrchildid,pclink,type" where="parentid=0" limit="20" return="nav_data"}
+			   {loop $nav_data $v}
+		       <li><a href="{$v[pclink]}" target="_blank">{$v[catname]}</a></li>
+		       {/loop}
+		    </ul>
+		    
+		    <div class="yzm_nav_right">
+		    {if $userid==0}
+		      <span class="yzm_user_avatar">
+		        <a href="{U('member/index/login')}"><img src="{STATIC_URL}bbs/images/avatar.png"/></a>
+		      </span>
+		      <span>
+		        <a href="{url_referer(1)}" target="_blank">登录</a>
+		      </span>
+		      <span>
+		        <a href="{U('member/index/register')}" target="_blank">注册</a>
+		      </span>
+		    {else}
+		    	<div class="yzm_login_status">
+		        <a href="{U('member/index/init')}" target="_blank">
+		        	<span>{$username}</span>
+		        	<img src="{get_avatar($userid)}" title="{$username}" />
+		        </a>
+		        <ul class="yzm_user_menu">
+		        	<li><a href="{U('member/index/init')}" target="_blank">用户中心</a></li>
+		        	<li><a href="{U('member/index/account')}" target="_blank">修改资料</a></li>
+		        	<li><a href="{U('member/myhome/init', array('userid'=>$userid))}" target="_blank">个人主页</a></li>
+		        	<li><a href="{U('member_posts/post_list')}" target="_blank">我的帖子</a></li>
+		        	<li><a href="{url_referer(0)}" target="_blank">退出</a></li>
+		        </ul>
+		      </div>
+		    {/if}
+	       </div>		
+		</div>
+	</div>
+	<div class="yzm_header_children">
+		<div class="container">
+		    <ul class="yzm_nav yzm_nav_children">
+		       <li><a href="{$site[site_url]}" {if !isset($pid)} class="yzm_nav_current"{/if}>首页</a></li>
+		    	{loop $forum_plate $v}
+		       <li><a href="{U('index/lists', array('pid' => $v['plate_id']))}" {if isset($pid) && $v['plate_id']==$pid} class="yzm_nav_current"{/if}>{$v[plate_name]}</a></li>
+		        {/loop}
+		    </ul>
+		    
+		    <ul class="yzm_nav_right yzm_search">
+		      <form method="get" action="{SITE_URL}index.php" target="_blank">
+		      	<input type="hidden" name="m" value="{ROUTE_M}" />
+		      	<input type="hidden" name="c" value="{ROUTE_C}" />
+		      	<input type="hidden" name="a" value="search" />
+		      	<input type="text"  name="q" placeholder="搜一下又不会怀孕~"/>
+		      	<input type="submit" value="搜索" class="yzm_button yzm_font" />
+		      </form>
+	       </ul>		
+		</div>
+	</div>

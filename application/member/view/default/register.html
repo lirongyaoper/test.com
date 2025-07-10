@@ -1,50 +1,164 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>会员注册{get_seo_suffix()}</title>
-    <meta name="author" content="YzmCMS内容管理系统/QQ:214243830">
-    <meta name="description" content="yzmcms会员注册" />
-    <link href="{STATIC_URL}css/yzm-member-login.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="{STATIC_URL}js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="{STATIC_URL}plugin/layer/layer.js"></script>
-    <script type="text/javascript" src="{STATIC_URL}js/yzm-member.js"></script>
+    <meta charset="UTF-8">
+    <title>会员注册_YzmCMS</title>
+    <link href="{STATIC_URL}css/yzmcms_member.css" rel="stylesheet" type="text/css" />
+    <meta name="author" content="YZMCMS/QQ:214243830">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="yzmcms论坛,yzmcms会员登录">
+    <meta name="description" content="YzmCMS是由袁志蒙独自开发的一款基于PHP+Mysql架构的轻量级开源内容管理系统，本站是YzmCMS官方论坛，欢迎大家在这里讨论、研究相关技术。">
+	<script type="text/javascript" src="{STATIC_URL}js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="{STATIC_URL}plugin/layer/layer.js"></script>
 </head>
-
 <body>
-    <div class="yzm-member-container yzm-register">
-        <div class="yzm-title">会员注册</div>
-        <div class="yzm-form">
-            <form action="" method="post" onsubmit="return check_register(this, '{U('member/index/register')}')">
-                <ul>
-                    <li><input type="text" class="input" name="username" placeholder="请输入用户名" value=""></li>
-                    <li><input type="text" class="input" name="email" placeholder="请输入电子邮箱" value=""></li>
-                    <li><input type="password" class="input" name="password" placeholder="请输入密码" value=""></li>
-                    <li><input type="password" class="input" name="password2" placeholder="请输入确认密码" value=""></li>
-                    <li><input type="text" class="input code" name="code" placeholder="请输入验证码"><img src="{U('api/index/code')}" onclick="this.src=this.src+'?'" id="codeimg" class="codeimg" title="看不清，换一张"></li>
-                    <li><input type="submit" class="submit" name="dosubmit" value="同意以下协议并注册"></li>
-                    <li class="last_li"><input type="checkbox" checked="checked" value="1" id="agree" name="agree" /> <a onclick="show_protocol()" href="javascript:void(0);">点击阅读注册协议</a></li>
-                </ul>
-                <div class="yzmcms_bottom">已有账号？<a href="{U('login')}">点击登录</a>&nbsp;&nbsp;&nbsp; <a href="{U('member/reset/init')}" target="_blank" style="color:#959595;float:right">忘记密码？</a></div>
-            </form>
-        </div>
-    </div>
+    
+    <div class="login_container">
+	    <div class="title">YzmCMS论坛 会员注册</div>
+		
+		<div class="form">
+			<form action="{U('member/yzmcms_member/register')}" method="post" onsubmit="return checkall(this)">
+				<ul>
+				 <li><input type="text" class="input" name="username" id="username" placeholder="请输入用户名" value=""></li>
+				 <li><input type="text" class="input"  name="email" id="email" placeholder="请输入电子邮箱" value=""></li>				 
+				 <li><input type="password" class="input"  name="password" id="password" placeholder="请输入密码" value=""></li>
+				 <li><input type="text" class="input code"  name="code" id="code" placeholder="右侧验证码"><img src="{U('api/index/code')}" onclick="this.src=this.src+'?'" class="codeimg" title="看不清，换一张"></li>	
+				 {if get_config('member_email') == 1}
+				 <li><input type="text" class="input valid"  name="email_code" id="email_code" placeholder="邮箱验证码">
+					<a class="btn_valid"  onclick="send_code()"><span id="send_code">发送验证码</span><span id="send_show" style="display:none;">重新发送(60s)</span></a>
+				 </li>	
+				 {/if}	
+				 <li class="last_li"><input type="submit" class="submit" name="dosubmit" value="注册"></li>
+				</ul>
+				<div class="yzmcms_bottom">已有YzmCMS账号？ <a href="{U('login')}">点击登录</a></div>
+			 </form>
+		</div>
 
-    <!-- 会员注册协议 -->
-    <div id="register_protocol" style="margin:15px 20px;display:none">
-        <p>1、在本站注册的会员，必须遵守《互联网电子公告服务管理规定》，不得在本站发表诽谤他人，侵犯他人隐私，侵犯他人知识产权，传播病毒，政治言论，商业讯息等信息。</p><br>
-        <p>2、在所有在本站发表的文章，本站都具有最终编辑权，并且保留用于印刷或向第三方发表的权利，如果你的资料不齐全，我们将有权不作任何通知使用你在本站发布的作品。</p><br>
-        <p>3、在登记过程中，您将选择注册名和密码。注册名的选择应遵守法律法规及社会公德。您必须对您的密码保密，您将对您注册名和密码下发生的所有活动承担责任。</p>
-    </div>
+	</div>
 
-    <div class="clearfix"></div>
-    <div class="yzm_footer">
-        <div class="container">
-            <p>Powered by <a href="http://www.yzmcms.com" target="_blank">{YZMCMS_SOFTNAME}</a> © 2014-{date('Y')} 版权所有</p>
-        </div>
-    </div>
+	<div class="clearfix"></div>
+	<div class="yzm_footer">
+		<div class="container">
+			<p>Powered by <a href="http://www.yzmcms.com" target="_blank">{YZMCMS_SOFTNAME}</a> © 2014-{date('Y')}  版权所有</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		var time = 0;
+		var res = null;
 
+		function setmytime(){
+			clearTimeout(res);
+	        time--; 
+	        if (time <= 0) {
+	            $('#send_show').text("发送验证码");
+	            clearTimeout(res);
+	            time = 0;
+	            return;
+	        }
+	        $('#send_show').text("重新发送(" + time + "s)");
+	        res = setTimeout("setmytime()", 1000);
+		}
+
+
+		function send_code() {
+			var code = $("#code").val();
+			if( code == ''){
+				layer.msg('验证码不能为空！', {icon:2,time: 1000});
+				$("#code").focus();
+				return false;
+			}
+			
+			if(time==0){
+				layer.msg('邮件发送中……', { icon: 16, shade: 0.21,shadeClose:true,time:2000 });
+				$.ajax({   
+					type: "post",   
+					url: "{U('member/yzmcms_member/send_code')}",   
+					dataType: "json",
+					async: false,	
+					data: "email="+$("#email").val()+"&code="+code, 		
+					success: function(msg){  
+						if(msg.status == 1){
+							$("#send_code").css('display','none'); 
+							$("#send_show").css('display','block'); 
+							time = 60;
+							res = setTimeout("setmytime()", 1000);	
+							layer.msg(msg.message, {icon:1,time: 3000});		  
+						}else{
+							layer.msg(msg.message, {icon:2,time: 2000});
+							$('#code+img').attr('src',$('#code+img').attr('src') + '?' + Math.random());
+							$("#code").focus();
+						}				 
+					} 
+				});
+			}else{
+				layer.msg('请 ' + time + ' 秒后再发送！', {icon:2,time: 2000});
+			}
+			
+		}
+
+
+		function check_input() {
+			if($("#username").val() == ''){
+				layer.msg('用户名不能为空！', {icon:2,time: 1000});
+				$("#username").focus();
+				return false;
+			}
+
+			var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/; 
+			if(!reg.test($("#email").val())){
+				layer.msg('电子邮箱格式不正确！', {icon:2,time: 1000});
+				$("#email").focus();
+				return false;
+			}
+
+			var password = $("#password").val();
+			if(password.length < 6 ){
+				layer.msg('密码不能不能低于6位！', {icon:2,time: 1000});
+				$("#password").focus();
+				return false;
+			}
+
+			if($("#code").val() == ''){
+				layer.msg('验证码不能为空！', {icon:2,time: 1000});
+				$("#code").focus();
+				return false;
+			}
+
+			return true;
+		}
+
+		function checkall(obj) {
+
+			if(!check_input()) return false;
+
+			if($("#email_code").val() == ''){
+				layer.msg('邮箱验证码不能为空！', {icon:2,time: 1000});
+				$("#email_code").focus();
+				return false;
+			}
+
+			var dosubmit = false;
+			$.ajax({   
+				type: "post",   
+				url: "{U('member/yzmcms_member/checkall')}",   
+				dataType: "json",
+				async: false,	
+				data: $(obj).serialize(),
+				success: function(msg){  
+					if(msg.status == 1){
+						dosubmit = true;		  
+					}else{
+						if(msg.status == -1){
+							$('#code+img').attr('src',$('#code+img').attr('src') + '?' + Math.random());
+							$("#code").focus();
+						}
+						layer.msg(msg.message, {icon:2,time: 2000});
+					}				 
+				} 
+			});
+			return dosubmit ? true : false;
+		}
+	</script>
 </body>
-
 </html>

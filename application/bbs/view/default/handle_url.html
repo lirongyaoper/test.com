@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+	<title>安全中心 - YzmCMS内容管理系统</title>
+	<meta name="keywords" content="{$keywords}" />
+	<meta name="description" content="{$description}" />
+	<meta name="author" content="袁志蒙/YzmCMS内容管理系统">
+	<style>
+		*{padding: 0px;margin: 0px;box-sizing:border-box;}
+		body{font-size:14px;font-family:Helvetica,Arial,sans-serif;background:#eee;}
+		.yzm_url_box{width: 95%;max-width: 460px;margin: 210px auto 0;word-break: break-all;padding: 30px;background: #fff;border-radius: 10px;border: 1px solid #e1e1e1;overflow: auto;color: #333;}
+		.yzm_url_box h1{font-size: 18px;font-weight: normal;text-align: center;margin-bottom: 20px;}
+		.yzm_url_content{margin-top: 10px;font-size: 14px;}
+		.yzm_loading_tip{padding: 10px 15px;background: #fdf5e6;border-radius: 5px;line-height: 25px;}
+		.yzm_loading_tip .icon{margin-right: 8px;vertical-align: top;}
+		.yzm_url_content p{margin: 20px 0;line-height: 21px;}
+		.yzm_url_content p span{color: #d81e06;}
+		.yzm_url_content a{padding: 8px 30px;border-radius: 5px;color: #fff;background-color: #409eff;border-color: #409eff;display: inline-block;transition: .1s;float: right;text-decoration: none;}
+		.yzm_url_content a:hover{background: #66b1ff;}
+		@media screen and (max-width: 640px) {
+			.yzm_url_box{margin: 150px auto 0;}
+		}
+	</style>
+</head>
+<body>
+	<div class="yzm_url_box">
+		<h1>YzmCMS安全提示</h1>
+		<div class="yzm_url_content">
+			<div class="yzm_loading_tip"><svg t="1656747420396" class="icon" viewBox="0 0 1026 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2477" width="24" height="24"><path d="M1004.657 801.716 602.263 91.599c-49.213-86.817-129.646-86.817-178.866 0L21.004 801.716c-49.207 86.906-8.949 157.798 89.388 157.798l804.877 0C1013.606 959.514 1053.825 888.622 1004.657 801.716zM544.635 832.216l-63.649 0 0-63.649 63.649 0L544.635 832.216zM544.635 641.27l-63.649 0L480.986 259.377l63.649 0L544.635 641.27z" p-id="2478" fill="#d81e06"></path></svg>请注意您的账号和财产安全</div>
+			<p>您即将离开本站，去往：<span>{htmlspecialchars($url)}</span></p>
+			<a href="{$url}" rel="nofollow">继续</a>
+		</div>
+	</div>
+</body>
+</html>

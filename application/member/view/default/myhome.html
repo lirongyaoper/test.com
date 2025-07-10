@@ -12,7 +12,7 @@
   </head>
   <body>
     <div id="container">	
-		<div id="toppic">{$username}_个人主页</div>
+		<div id="toppic">{$username}个人主页</div>
 		<div id="top">
 			<div class="feeb">
 				<img src="{if $userpic}{$userpic}{else}{STATIC_URL}images/default.gif{/if}" alt="{$username}" title="{$username}"/>
@@ -32,10 +32,10 @@
 		<div class="clearfix"></div>
 		<div id="main">
 		  <div id="main_left">
-		     <h1>内容列表</h1>
+		     <h1>帖子列表</h1>
 			 <ul class="list">
 			 {loop $data $val}
-			 <li><span>{date('Y-m-d H:i:s',$val['inputtime'])}</span><a href="{$val[url]}" target="_blank" title="{$val[title]}">{$val[title]}</a></li>
+			 <li><span>{date('Y-m-d H:i:s',$val['updatetime'])}</span><a href="{$val[url]}" target="_blank" title="{$val[title]}">{$val[title]}</a></li>
 			 {/loop}
 			 </ul>
 			 <div id="page">{$pages}</div>			 

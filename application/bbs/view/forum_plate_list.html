@@ -1,0 +1,47 @@
+<?php include $this->admin_tpl('meta', 'admin');?>
+<title>板块管理 - YzmCMS内容管理系统</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="yzm-iconfont yzm-iconai-home"></i> 首页 <span class="c-gray en">&gt;</span> 论坛管理 <span class="c-gray en">&gt;</span> 板块管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="yzm-iconfont yzm-iconshuaxin"></i></a></nav>
+<div class="page-container">
+	<div class="cl tb-top"> <span class="l"><a href="javascript:;" onclick="yzm_dels('id')" class="btn btn-danger radius"><i class="yzm-iconfont yzm-iconshanchu2"></i> 批量删除</a>  <a href="javascript:;" onclick="yzm_open('添加板块','<?php echo U('add');?>','650','450')" class="btn btn-primary radius"><i class="yzm-iconfont yzm-icontianjia"></i> 添加板块</a></span></div>
+	<form method="post" action="<?php echo U('del');?>" id="myform">
+	<table class="table table-border table-bg table-hover">
+		<thead>
+			<tr class="text-c">
+				<th width="25"><input type="checkbox"></th>
+				<th>板块ID</th>
+				<th>板块名称</th>
+				<th>阅读权限</th>
+				<th>发布权限</th>
+				<th>SEO描述</th>		
+				<th>管理操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php 
+			   foreach($data as $val){
+			 ?>
+			<tr class="text-c">
+				<td><input type="checkbox" value="<?php echo $val['plate_id']?>" name="id[]"></td>
+				<td><?php echo $val['plate_id']?></td>
+				<td><?php echo $val['plate_name']?></td>
+				<td><?php echo $val['groupids_view'] ? get_groupname($val['groupids_view']) : '不限制';?></td>
+				<td><?php echo $val['groupids_add'] ? get_groupname($val['groupids_add']) : '不限制';?></td>
+				<td><?php echo $val['description'] ? str_cut($val['description'], 90) : '暂无';?></td>
+				<td class="td-manage">
+					<a title="编辑板块" href="javascript:;" onclick="yzm_open('编辑板块','<?php echo U('edit',array('plate_id'=>$val['plate_id']));?>','650','450')" class="yzm-box-img btn-primary"><i class="yzm-iconfont yzm-iconbianji1"></i> 编辑</a>
+					<a title="访问板块" href="<?php echo U('index/lists', array('pid' => $val['plate_id']))?>" target="_blank" class="ml-5 yzm-box-img btn-success"><i class="yzm-iconfont yzm-iconlianjie"></i> 访问</a>
+				</td>
+			</tr>
+			<?php 
+			   }		 
+			?>	
+		</tbody>
+	</table>
+	<?php if(!$data){ ?><div class="yzm_no_data"><i class="yzm-iconfont yzm-iconshuoming"></i> 暂无数据</div><?php } ?>
+	</form>
+</div>
+<?php include $this->admin_tpl('footer', 'admin');?>
+</body>
+</html>

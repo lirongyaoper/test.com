@@ -1,0 +1,59 @@
+<?php include $this->admin_tpl('meta', 'admin');?>
+<title>内容属性操作 - YzmCMS内容管理系统</title>
+</head>
+<body>
+<article class="page-container">
+
+    <form class="form form-horizontal" onsubmit="return dosub(this)" method="post">
+		<div class="row cl">
+			<label class="form-label col-xs-3"><span class="c-red">*</span>属性：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+                <label>置顶[1] <input name="tags[]" type="checkbox" value="1"/></label>&nbsp;&nbsp;
+                <label>精帖[2] <input name="tags[]" type="checkbox" value="2"/></label>&nbsp;&nbsp;
+                <label>推荐[3] <input name="tags[]" type="checkbox" value="3"/></label>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3"><span class="c-red">*</span>内容ID：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value=""  name="ids" id="ids">
+				<input type="hidden" class="input-text" value="<?php echo $op; ?>"  name="op">
+			</div>
+		</div>
+		<div class="footer_btn">
+			<input type="hidden" name="dosubmit" value="1">
+			<input class="btn btn-primary radius" type="submit" value="确 定">
+			<input class="btn btn-default radius" type="button" value="取 消" onclick="yzmcms_close()">	
+		</div>
+    </form>
+
+</article>
+<?php include $this->admin_tpl('footer', 'admin');?>
+
+<script type="text/javascript">
+function dosub(obj){
+	if($("input[name='ids']").val()==''){
+		layer.msg('内容ID不能为空！', {icon:2});
+		return false;
+	}
+	$.ajax({
+		type: 'POST',
+		url: '<?php echo U('attribute_operation')?>', 
+		data: $(obj).serialize(),
+		dataType: "json", 
+		success: function (msg) {
+			if(msg.status == 1){
+				layer.msg(msg.message, {icon:1, time:800}, function(){
+					parent.location.reload();
+				}); 
+			}else{
+				layer.msg(msg.message, {icon:2});
+			}
+		}
+	})
+	return false;		
+}
+</script> 
+
+</body>
+</html>
