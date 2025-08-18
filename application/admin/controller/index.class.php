@@ -1,3 +1,166 @@
 <?php
-if(!defined('_A_AA_AA_'))define('_A_AA_AA_', 'A__A___A_');$GLOBALS[_A_AA_AA_]=explode('| |@|4','H*| |@|4646566696E6564| |@|4494E5F595A4D504850| |@|44163636573732044656E696564| |@|46C6F61645F636F6E74726F6C6C6572| |@|4636F6D6D6F6E| |@|46465627567| |@|444| |@|46775657374626F6F6B| |@|46669656C64| |@|46964| |@|47768657265| |@|47265706C796964| |@|430| |@|4736974656964| |@|4697372656164| |@|430| |@|4746F74616C| |@|461646D696E5F74706C| |@|4696E646578| |@|469735F70617373776F7264| |@|470617373776F7264| |@|472657475726E5F6A736F6E| |@|4737461747573| |@|46D657373616765| |@|44C| |@|470617373776F72645F666F726D61745F6572726F72| |@|4737461747573| |@|46D657373616765| |@|4636F64655F6572726F72| |@|4636F6465| |@|4| |@|4757365726E616D65| |@|47472696D| |@|4757365726E616D65| |@|44D| |@|461646D696E| |@|4636865636B5F61646D696E| |@|4757365726E616D65| |@|470617373776F7264| |@|470617373776F7264| |@|4737461747573| |@|4737461747573| |@|46D657373616765| |@|46C6F67696E5F73756363657373| |@|475726C| |@|455| |@|4696E6974| |@|469735F757365726E616D65| |@|4757365726E616D65| |@|4737461747573| |@|46D657373616765| |@|4757365725F6E616D655F666F726D61745F6572726F72| |@|45F6C6F67696E| |@|4636F6465| |@|4737472746F6C6F776572| |@|4636F6465| |@|4636F6465| |@|469735F706F7374| |@|4636F6465| |@|461646D696E6964| |@|461646D696E6E616D65| |@|4726F6C656964| |@|461646D696E696E666F| |@|464656C5F636F6F6B6965| |@|461646D696E6964| |@|461646D696E6E616D65| |@|473686F776D7367| |@|4796F755F686176655F736166655F65786974| |@|46C6F67696E| |@|461646D696E| |@|46F625F7374617274| |@|47075626C69635F686F6D65| |@|46D656D626572| |@|461646D696E| |@|476696577| |@|47075626C69635F686F6D652E68746D6C| |@|469735F66696C65| |@|45F666F7263655F6C6F676F7574| |@|466696C655F6765745F636F6E74656E7473| |@|4737472706F73| |@|4597A6D434D53| |@|47777772E797A6D636D732E636F6D| |@|46C6F61645F636F6D6D6F6E| |@|46C69622F757064617465| |@|461646D696E| |@|4636C6173735F657869737473| |@|4757064617465| |@|4E7BCBAE5B091E5BF85E8A681E79A84E7B3BBE7BB9FE69687E4BBB6EFBC8CE8AFB7E88194E7B3BB597A6D434D53E5AE98E696B9EFBC81| |@|473746F70| |@|46F625F6765745F636F6E74656E7473| |@|46F625F656E645F636C65616E| |@|47570| |@|4636865636B| |@|4616C6C5F636F6E74656E74| |@|4736974656964| |@|46D6F64756C65| |@|473797374656D5F696E666F726D6174696F6E| |@|4756E6C696E6B| |@|463616368652F6572726F725F6C6F672E706870| |@|4737461747573| |@|46D657373616765| |@|4E6ADA4E6938DE4BD9CE4BB85E99990E4BA8EE8B685E7BAA7E7AEA1E79086E59198EFBC81| |@|463616368652F6572726F725F6C6F672E706870| |@|46D657373616765| |@|46F7065726174696F6E5F6661696C757265| |@|461646D696E5F6C6F67| |@|4696E73657274| |@|46D6F64756C65| |@|4616374696F6E| |@|461646D696E6E616D65| |@|461646D696E6E616D65| |@|461646D696E6964| |@|461646D696E6964| |@|47175657279737472696E67| |@|4E6B885E999A4E99499E8AFAFE697A5E5BF97| |@|46C6F6774696D65| |@|46970| |@|4737461747573| |@|46D657373616765| |@|46F7065726174696F6E5F73756363657373| |@|4726F6C656964| |@|4797A6D5F6C6F636B5F73637265656E| |@|4737461747573| |@|46D657373616765| |@|46F7065726174696F6E5F73756363657373| |@|461646D696E| |@|461646D696E6E616D65| |@|470617373776F7264| |@|4737461747573| |@|4797A6D5F6C6F636B5F73637265656E| |@|4737461747573| |@|46D657373616765| |@|46C6F67696E5F73756363657373| |@|473657373696F6E5F64657374726F79| |@|43C73637269707420747970653D22746578742F6A617661736372697074223E77696E646F772E746F702E6C6F636174696F6E3D22687474703A2F2F7777772E797A6D636D732E636F6D3F66726F6D3D| |@|475726C656E636F6465| |@|4223C2F7363726970743E| |@|46C6F67696E| |@|46261736536345F6465636F6465| |@|4504345744C5342516233646C636D566B49454A3549466C3662554E4E552B574768655775756565756F6565516875657A752B65376E7941674C53302B');unset($�����Ü�);$�����Ü�; defined(pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-383+25*16-15)])) || exit(pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-2422+87*28-11)]));yzm_base::{pack($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(-7645+483+153*47-25)])}(call_user_func("pack",$GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][((261+20-46)/47)]),ROUTE_M,0);class index extends common{public function init(){debug();unset($����);$����;$total=D(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][((644+144-12)/97)])))->{call_user_func("pack",$GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-1452+39*38-21)])}(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][10])))->{pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][11])}(array(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][12])) =>pack($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][13]),call_user_func("pack",$GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][14]) =>self::$siteid,pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][15]) =>call_user_func("pack",$GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][16])))->{pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][17])}();unset($�);$�;include $this->{pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][18])}(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][19])));}public function login(){goto nx5q2x6pw9;unset($��ǀ�);$��ǀ�;CMczd6tApC:PHiX_gJQcX:if(!is_password($_POST[pack($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(-1527+455+30*38-47)])])){goto OgShlifqtC;}goto j5n32NEcZw;OgShlifqtC:return_json(array(call_user_func("pack",$GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-1792-449+59*39-37)]) =>0,call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(301-345+2*52-36)]) =>L(pack($GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-4130-473+150*31-21)]))));goto kGMWEyGvag;unset($�Ɛ�);$�Ɛ�;SjNicwv4TZ:return_json(array(call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(216-387+56*4-26)]) =>0,pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-13326-377+151*91-10)]) =>L(pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][(-6525+108*61-34)]))));unset($�੷畺���);$�੷畺���;zN2WZ20LYm:$_SESSION[pack($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(-2185+489+60*29-14)])]=call_user_func("pack",$GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][((265+94-49)/10)]);unset($���������);$���������;$_POST[call_user_func("pack",$GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-516+35*17-47)])]=trim($_POST[pack($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(-2050-410+31*82-48)])]);unset($��);$��;goto jyvkQ_w8Zf;unset($����������);$����������;goto mpMJDCoS45;unset($�О����);$�О����;nx5q2x6pw9:goto Mb2J633L1Z;FRLpKlk8Z5:j5n32NEcZw:$res=M(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-8551+187*46-15)])))->{call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][((1150+4-44)/30)])}($_POST[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][(-2048+355+18*97-15)]))],password($_POST[call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-6471+152*43-25)])]));if(!$res[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-3828+108*36-19)]))]){goto j9qUqB8Cs8;}goto dNMEmMBQf5;mpMJDCoS45:l92EsNRo0j:goto rSI6t3zInl;unset($���);$���;kGMWEyGvag:goto FRLpKlk8Z5;unset($��â�Ӯ�Ӊ);$��â�Ӯ�Ӊ;QcpHMyOMkY:mDCg167bDk:return_json(array(pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][((1317+12-27)/31)]) =>1,call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-4859-440+96*56-34)])) =>L(pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-496+38*15-30)])),call_user_func("pack",$GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-4001+417+45*81-16)]) =>U(pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-606+51*13-10)]))));DU2JWkQ8hW:goto skw6pdQApX;RI1KRODrfO:jyvkQ_w8Zf:if(!is_username($_POST[pack($GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-6339+173*37-13)])])){goto WqvO8l25t2;}goto PHiX_gJQcX;WqvO8l25t2:return_json(array(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][(-3200+46*71-16)])) =>0,call_user_func("pack",$GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-4204+130*33-35)]) =>L(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][(-13661+176*78-15)])))));unset($���);$���;goto CMczd6tApC;vpyfHtpzf7:FQUcIQ_iyr:$this->{pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-6126+435+109*53-33)])}();unset($�);$�;goto ydQwbbBs2F;unset($�ε�����);$�ε�����;HBXqIQVcfG:if(empty($_SESSION[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(19-486+28*20-39)]))])|| strtolower($_POST[pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-11247+122*93-43)])])!=$_SESSION[call_user_func("pack",$GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-10571-454+159*70-48)])]){goto XXdu2J8mdj;}goto n17j0HkKzy;dNMEmMBQf5:goto mDCg167bDk;unset($��);$��;j9qUqB8Cs8:return_json($res);unset($��Δø);$��Δø;goto DU2JWkQ8hW;unset($���);$���;goto QcpHMyOMkY;goto RI1KRODrfO;unset($섺�×);$섺�×;skw6pdQApX:ydQwbbBs2F:goto l92EsNRo0j;Mb2J633L1Z:if(!is_post()){goto FQUcIQ_iyr;}goto HBXqIQVcfG;goto vpyfHtpzf7;n17j0HkKzy:goto zN2WZ20LYm;XXdu2J8mdj:goto sNfnP4r2WU;sNfnP4r2WU:$_SESSION[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-846+313+33*19-35)]))]=call_user_func("pack",$GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][((265+94-49)/10)]);unset($���);$���;goto SjNicwv4TZ;unset($��);$��;rSI6t3zInl:}public function public_logout(){unset($_SESSION[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][(-7605-350+112*72-49)]))],$_SESSION[call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][((2192+168-42)/38)])],$_SESSION[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(-4743+463+59*74-24)]))],$_SESSION[call_user_func("pack",$GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-10584+457+111*92-22)])]);del_cookie(pack($GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-228+16*20-27)]));unset($���ä��Ғ);$���ä��Ғ;del_cookie(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][((2178+42-42)/33)])));unset($�瞡);$�瞡;showmsg(L(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][((961+137-10)/16)]))),U(call_user_func("pack",$GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][((6102+130-22)/90)])),1);}public function public_home(){goto YHXhbZi4Y4;YHXhbZi4Y4:goto P2HoBaTdF9;unset($Ԡű��);$Ԡű��;XYJVCggNDN:$count[]=D(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-1271+396+49*20-35)])))->{pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][17])}();unset($��������);$��������;ob_start();include $this->{pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][18])}(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][(-15814+166*96-50)])));unset($�);$�;goto gbyC1SXeOA;Koha9FhNQU:$count[]=D(pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-2030+305+19*97-45)]))->{pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][17])}();goto XYJVCggNDN;unset($Ծ�);$Ծ�;DBnY3w0zY7:goto gLRtCvnGxm;Yo1j9_RuQd:$tpl=APP_PATH.call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][((2847+150-37)/40)])) .DIRECTORY_SEPARATOR.call_user_func("pack",$GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-12357+127*98-14)]) .DIRECTORY_SEPARATOR.pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-7927-500+161*53-30)]);if(!is_file($tpl)){goto bkFSQSl0he;}goto VgqvPlvfwZ;bkFSQSl0he:goto tpkKIop4uh;goto qjLPVUCyhz;unset($���ò�);$���ò�;K7m_25wg41:goto hxdOCFqJ3Q;mtkS2_67MT:$this->{pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-3429-422+56*71-47)])}();goto IcXdiLvCPU;unset($�����);$�����;d2BwOpwJMv:goto njPwY9VwhC;unset($�ª��ﴧ��);$�ª��ﴧ��;PuOEmJQyJ5:tpkKIop4uh:$this->{pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-3429-422+56*71-47)])}();VgqvPlvfwZ:$html=file_get_contents($tpl);unset($�Ķ��);$�Ķ��;if(!strpos($html,call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-8037+85*96-42)])))|| !strpos($html,call_user_func("pack",$GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][((284+90-46)/4)]))){goto mtkS2_67MT;}goto K7m_25wg41;ledck7xtNT:yzm_base::{pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-8000-302+165*51-30)])}(pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(331-384+5*36-43)]) .EXT,call_user_func("pack",$GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-5562-487+187*33-37)]));unset($���Ժ�����);$���Ժ�����;if(!class_exists(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][(-5650+152*38-39)])))){goto cIBdS0hXua;}goto gMi2pLva1n;cIBdS0hXua:showmsg(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][(-4551+405+185*23-21)])),call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][((1668+69-46)/19)])));goto Ccum0HtcTv;gbyC1SXeOA:$data=ob_get_contents();unset($��);$��;ob_end_clean();unset($��������);$��������;goto m66ZFd16ba;P2HoBaTdF9:debug();unset($���ɠ��);$���ɠ��;goto ledck7xtNT;njPwY9VwhC:if(isset($_GET[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][(-7368+95*79-45)]))])){goto OLXqXH74i9;}goto CwNkICwLKM;OLXqXH74i9:update::{pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][(-3352+55*63-20)])}();unset($�����);$�����;CwNkICwLKM:goto Yo1j9_RuQd;unset($����);$����;qjLPVUCyhz:IcXdiLvCPU:hxdOCFqJ3Q:$count=array();$count[]=D(pack($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(-6451+419+171*36-30)]))->{pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][11])}(array(call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][(-5503-368+78*77-40)]) =>self::$siteid))->{pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][17])}();unset($ƨ���);$ƨ���;$count[]=D(pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-5127+70*75-27)]))->{pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][17])}();unset($�);$�;goto Koha9FhNQU;unset($���);$���;Ccum0HtcTv:gMi2pLva1n:goto d2BwOpwJMv;m66ZFd16ba:system_information($data);goto DBnY3w0zY7;goto PuOEmJQyJ5;gLRtCvnGxm:}public function public_clear_log(){goto MsVeGM7Iqj;HnvOVvy245:goto TK5IhzIE0D;unset($���С����);$���С����;j5jse96UHq:$res=@unlink(YZMPHP_PATH.call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][(-524+309+168*2-22)])));goto cJxTyA0vDF;vylaKWmt94:goto xT2yCaPLMp;IlkP9TTlSi:goto VGrodXH1AG;unset($�ҿ���);$�ҿ���;fvn958e716:return_json(array(pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][100]) =>0,call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][101]) =>call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][102])));VGrodXH1AG:if(is_file(YZMPHP_PATH.call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][103])))){goto j5jse96UHq;}goto HnvOVvy245;sex5yDWd0X:return_json(array(pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][100]) =>0,call_user_func("pack",$GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][104]) =>L(pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][105]))));unset($���������);$���������;P84rpOMW4u:D(call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][106]))->{call_user_func("pack",$GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][107])}(array(pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][108]) =>ROUTE_M,call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][109])) =>ROUTE_C,call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][110]) =>$_SESSION[pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][111])],call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][112])) =>$_SESSION[pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][113])],pack($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][114]) =>pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][115]),pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][116]) =>SYS_TIME,call_user_func("pack",$GLOBALS[_A_AA_AA_][6/2*3-9],$GLOBALS[_A_AA_AA_][117]) =>self::$ip));unset($��);$��;TK5IhzIE0D:goto bPyM5rhjcy;unset($׋�);$׋�;goto f7Ke20wJIJ;MsVeGM7Iqj:goto y5pzQVJlr4;unset($���������);$���������;cJxTyA0vDF:if(!$res){goto FBxrWT0dfu;}goto P84rpOMW4u;FBxrWT0dfu:goto sex5yDWd0X;unset($��ી);$��ી;f7Ke20wJIJ:bPyM5rhjcy:return_json(array(call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][118]) =>1,call_user_func("pack",$GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][119]) =>L(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][120])))));unset($����Μ����);$����Μ����;goto vylaKWmt94;unset($Җ��ⵆ��);$Җ��ⵆ��;y5pzQVJlr4:if($_SESSION[call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][121])]!=1){goto fvn958e716;}goto IlkP9TTlSi;xT2yCaPLMp:}public function public_lock_screen(){$_SESSION[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][122]))]=1;return_json(array(pack($GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][123]) =>1,call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][124])) =>L(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][125])))));}public function public_unlock_screen(){$res=M(pack($GLOBALS[_A_AA_AA_][3*9-27],$GLOBALS[_A_AA_AA_][126]))->{call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][((1150+4-44)/30)])}($_SESSION[call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][127])],password($_POST[call_user_func("pack",$GLOBALS[_A_AA_AA_][4+5-3*3],$GLOBALS[_A_AA_AA_][128])]));unset($��);$��;if(!$res[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][129]))]){goto Hu8d3WI9rI;}goto Xv2H1St8uU;Hu8d3WI9rI:return_json($res);unset($����);$����;Xv2H1St8uU:$_SESSION[call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][130]))]=0;unset($ȿ�);$ȿ�;return_json(array(call_user_func_array("pack",array($GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][131])) =>1,call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][132]) =>L(pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][133]))));}private function _force_logout(){$_SESSION=array();session_destroy();echo call_user_func("pack",$GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][135]) .urlencode(SITE_URL).call_user_func("pack",$GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][137]);unset($�ꯀ�����);$�ꯀ�����;exit;unset($����);$����;}private function _login(){ob_start();include $this->{pack($GLOBALS[_A_AA_AA_][15-5+7-17],$GLOBALS[_A_AA_AA_][18])}(pack($GLOBALS[_A_AA_AA_][(5+6+7-18)*0],$GLOBALS[_A_AA_AA_][138]));unset($������);$������;$data=ob_get_contents();unset($����آ�);$����آ�;ob_end_clean();unset($݉��);$݉��;echo $data.base64_decode(call_user_func("pack",$GLOBALS[_A_AA_AA_][100-20*5],$GLOBALS[_A_AA_AA_][140]));}}
+// +----------------------------------------------------------------------
+// | Site:  [ http://www.yzmcms.com]
+// +----------------------------------------------------------------------
+// | Copyright: 袁志蒙工作室，并保留所有权利
+// +----------------------------------------------------------------------
+// | Author: YuanZhiMeng <214243830@qq.com>
+// +---------------------------------------------------------------------- 
+// | Explain: 这不是一个自由软件,您只能在不用于商业目的的前提下对程序代码进行修改和使用，不允许对程序代码以任何形式任何目的的再发布！
+// +----------------------------------------------------------------------
+
+defined('IN_YZMPHP') or exit('Access Denied'); 
+
+yzm_base::load_controller('common', 'admin', 0);
+
+class index extends common{
+	/**
+	 * 后台首页框架
+	 */
+	public function init(){
+		debug();
+		include $this->admin_tpl('index');
+	}
+
+	/**
+	 * 管理员登录
+	 */
+	public function login(){
+		if(!is_post()){
+			$this->_login();
+			return;
+		}
+
+		// 验证码校验
+		$code = isset($_POST['code']) ? strtolower(trim($_POST['code'])) : '';
+		if(empty($_SESSION['code']) || $code != strtolower($_SESSION['code'])){
+			$_SESSION['code'] = '';
+			return_json(array('status'=>0, 'message'=>L('code_error')));
+		}
+
+		$username = isset($_POST['username']) ? trim($_POST['username']) : '';
+		$password = isset($_POST['password']) ? $_POST['password'] : '';
+		if(!is_username($username)) return_json(array('status'=>0, 'message'=>L('user_name_format_error')));
+		if(!is_password($password)) return_json(array('status'=>0, 'message'=>L('password_format_error')));
+
+		$res = M('admin')->check_admin($username, password($password));
+		if($res['status'] != 1) return_json($res);
+
+		return_json(array('status'=>1, 'message'=>L('login_success'), 'url'=>U('init')));
+	}
+
+	/**
+	 * 退出登录
+	 */
+	public function public_logout(){
+		unset($_SESSION['adminid'], $_SESSION['adminname'], $_SESSION['roleid'], $_SESSION['admininfo'], $_SESSION['yzm_csrf_token']);
+		del_cookie('adminid');
+		del_cookie('adminname');
+		showmsg(L('you_have_safe_exit'), U('login'), 1);
+	}
+
+	/**
+	 * 后台桌面
+	 */
+	public function public_home(){
+		debug();
+
+		// 更新检查（可选，通过 GET 参数触发）
+		yzm_base::load_common('lib/update'.EXT, 'admin');
+		if(!class_exists('update')){
+			showmsg('缺少必要的系统文件，请联系YzmCMS官方！', 'stop');
+		}
+		if(isset($_GET['up'])){
+			update::check();
+		}
+
+		// 模板与版权校验
+		$tpl = APP_PATH.'admin'.DIRECTORY_SEPARATOR.'view'.DIRECTORY_SEPARATOR.'public_home.html';
+		if(!is_file($tpl)){
+			$this->_force_logout();
+		}
+		$html = file_get_contents($tpl);
+		if(!strpos($html, 'YzmCMS') || !strpos($html, 'www.yzmcms.com')){
+			$this->_force_logout();
+		}
+
+		// 统计信息
+		$count = array();
+		$count[] = D('all_content')->where(array('siteid'=>self::$siteid))->total();
+		$count[] = D('admin')->total();
+		$count[] = D('member')->total();
+		$count[] = D('module')->total();
+
+		ob_start();
+		include $this->admin_tpl('public_home');
+		$data = ob_get_contents();
+		ob_end_clean();
+
+		// 系统信息处理
+		system_information($data);
+	}
+
+	/**
+	 * 清除错误日志
+	 */
+	public function public_clear_log(){
+		if($_SESSION['roleid'] != 1) return_json(array('status'=>0, 'message'=>L('no_permission_to_access')));
+		$log_file = YZMPHP_PATH.'cache/error_log.php';
+		if(!is_file($log_file)) return_json(array('status'=>0, 'message'=>L('does_not_exist')));
+		$res = @unlink($log_file);
+		if(!$res){
+			return_json(array('status'=>0, 'message'=>L('operation_failure')));
+		}
+		D('admin_log')->insert(array(
+			'module'=>ROUTE_M,
+			'controller'=>ROUTE_C,
+			'adminname'=>$_SESSION['adminname'],
+			'adminid'=>$_SESSION['adminid'],
+			'querystring'=>'清除错误日志',
+			'logtime'=>SYS_TIME,
+			'ip'=>self::$ip
+		));
+		return_json(array('status'=>1, 'message'=>L('operation_success')));
+	}
+
+	/**
+	 * 锁屏
+	 */
+	public function public_lock_screen(){
+		$_SESSION['yzm_lock_screen'] = 1;
+		return_json(array('status'=>1, 'message'=>L('operation_success')));
+	}
+
+	/**
+	 * 解锁
+	 */
+	public function public_unlock_screen(){
+		$password = isset($_POST['password']) ? $_POST['password'] : '';
+		$res = M('admin')->check_admin($_SESSION['adminname'], password($password));
+		if($res['status'] != 1) return_json($res);
+		$_SESSION['yzm_lock_screen'] = 0;
+		return_json(array('status'=>1, 'message'=>L('operation_success')));
+	}
+
+	/**
+	 * 强制退出
+	 */
+	private function _force_logout(){
+		$_SESSION = array();
+		session_destroy();
+		echo '<script type="text/javascript">window.top.location="http://www.yzmcms.com?from=' . urlencode(SITE_URL) . '"</script>';
+		exit;
+	}
+
+	/**
+	 * 登录页渲染
+	 */
+	private function _login(){
+		ob_start();
+		include $this->admin_tpl('login');
+		$data = ob_get_contents();
+		ob_end_clean();
+		echo $data.base64_decode('PGRpdiBzdHlsZT0iZGlzcGxheTpub25lIj5Qb3dlcmVkIGJ5IDxhIGhyZWY9Imh0dHA6Ly93d3cueXptY21zLmNvbSIgdGFyZ2V0PSJfYmxhbmsiPll6bUNNUzwvYT48L2Rpdj4=');
+	}
+}
 ?>
