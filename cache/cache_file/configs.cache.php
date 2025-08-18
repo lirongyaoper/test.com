@@ -2,7 +2,7 @@
 return array (
   'contents' => 
   array (
-    'site_name' => 'YzmCMS演示站',
+    'site_name' => '荣耀科技',
     'site_url' => 'http://www.test.com/',
     'site_keyword' => 'YzmCMS演示站',
     'site_description' => 'YzmCMS是一款基于YZMPHP开发的一套轻量级开源内容管理系统，YzmCMS简洁、安全、开源、实用，可运行在Linux、Windows、MacOSX、Solaris等各种平台上，专注为公司企业、个人站长快速建站提供解决方案。',
@@ -73,6 +73,6 @@ return array (
     'blacklist_ip' => '',
   ),
   'expire' => 0,
-  'mtime' => 1752187654,
+  'mtime' => 1755495247,
 );
 ?>

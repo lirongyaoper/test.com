@@ -3,7 +3,7 @@ defined('IN_YZMPHP') or exit('Access Denied');
 return array(
 
     //系统配置
-    'auth_key' => 'NCyKdihvLTLndVD6F4KyczDB0q9A0ghF',    //系统密钥
+    'auth_key' => 'Kbi97V79s0woVsSwwHeMbKfCwE0olqpY',    //系统密钥
     'error_page'         => '404.html',    //错误提示页面，非调试模式有效
     'error_log_save'     => true,          //是否保存系统错误日志，非调试模式有效
     'site_theme'         => 'default',     //站点默认主题目录
