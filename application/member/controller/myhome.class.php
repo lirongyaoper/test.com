@@ -13,7 +13,7 @@ class myhome{
 
 	public function __construct() {
 		//设置会员模块模板风格
-		set_module_theme('default');
+		set_module_theme(get_config('member_theme'));
 	}
 
 	
@@ -25,20 +25,16 @@ class myhome{
 		$memberinfo = get_memberinfo($userid, true);
 		if(!$memberinfo) showmsg('会员不存在或已被删除！', 'stop');
 		extract($memberinfo);
+		if($status != 1) showmsg('会员状态异常！', 'stop');
 		
 		$groupinfo = get_groupinfo($groupid);
 		D('member_detail')->update('`guest`=`guest`+1', array('userid'=>$userid));
 		
-		$forum_post = D('forum_post');
-		$total = $forum_post->where(array('userid' =>$userid,'status' =>1))->total();
+		$all_content = D('all_content');
+		$total = $all_content->where(array('userid' =>$userid,'status' =>1,'issystem'=>0))->total();
 		$page = new page($total, 10);
-		$res = $forum_post->field('id,title,plate_id,updatetime')->where(array('userid' =>$userid,'status' =>1))->order('updatetime DESC')->limit($page->limit())->select();
-		$data = array();
-		foreach($res as $val) {
-			$val['url'] = U('bbs/index/show', array('id'=>$val['id']));
-			$data[] = $val;
-		}
-		$pages = '<span class="pageinfo">共'.$total.'条记录</span>'.$page->getfull(false);
+		$data = $all_content->field('modelid,catid,id,thumb,title,url,inputtime')->where(array('userid' =>$userid,'status' =>1,'issystem'=>0))->order('id DESC')->limit($page->limit())->select();
+		$pages = '<span class="pageinfo">'.L('total').'<strong> '.$total.' </strong>'.L('records').'</span>'.$page->getfull(false);
 		
 		$guest_data = $this->_guest($userid);
 		
