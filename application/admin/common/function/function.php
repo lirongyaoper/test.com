@@ -12,6 +12,8 @@
 /**
  * 设置config文件
  * @param $config 配置信息
+ * 
+ * 作用：重新设置配置信息，并保存到config.php文件中
  */
 function set_config($config) {
 	$configfile = YZMPHP_PATH.'common'.DIRECTORY_SEPARATOR.'config/config.php';
