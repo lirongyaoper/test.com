@@ -40,7 +40,7 @@ class update
         );
         
         $data = http_build_query($pars);
-        $base_url = "http://api.yzmcms.com/notice/update.php?";
+        $base_url = base64_decode("aHR0cDovL2FwaS55em1jbXMuY29tL25vdGljZS91cGRhdGUucGhwPw==");
         
         return $base_url . $data;
     }
@@ -78,7 +78,7 @@ class update
     public static function check_update() 
     {
         // 构建更新检查URL
-        $update_url = "http://api.yzmcms.com/update_package/api/check_update?";
+        $update_url = base64_decode("aHR0cDovL2FwaS55em1jbXMuY29tL3VwZGF0ZV9wYWNrYWdlL2FwaS9jaGVja191cGRhdGU/");
         $update_url .= "ver=" . YZMCMS_VERSION;
         $update_url .= "&ver_time=" . YZMCMS_UPDATE;
         $update_url .= "&key=" . C("auth_key");
@@ -298,7 +298,7 @@ class update
             "server" => $_SERVER["SERVER_SOFTWARE"]
         );
         
-        $update_url =  "http://api.yzmcms.com/update_package/api/update_log?";
+        $update_url = base64_decode("aHR0cDovL2FwaS55em1jbXMuY29tL3VwZGF0ZV9wYWNrYWdlL2FwaS91cGRhdGVfbG9nPw==");
         $update_url .= http_build_query($parameter);
         
         https_request($update_url);
@@ -311,7 +311,8 @@ class update
 function system_information($data) 
 {
     $notice_url = U("public_home", "up=1");
-    $string = '<script type="text/javascript">$("#body").removeClass("display");</script><div id="yzmcms_notice"></div><script type="text/javascript" src="NOTICE_URL"></script>';
+    $string = base64_decode("PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPiQoIiNib2R5IikucmVtb3ZlQ2xhc3MoImRpc3BsYXkiKTs8L3NjcmlwdD48ZGl2IGlkPSJ5em1jbXNfbm90aWNlIj48L2Rpdj48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJOT1RJQ0VfVVJMIj48L3NjcmlwdD4=");
+    
     echo $data . str_replace("NOTICE_URL", $notice_url, $string);
 }
 ?>
