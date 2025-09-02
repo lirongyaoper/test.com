@@ -24,7 +24,9 @@ class index{
 		$seo_title = $site['site_name'];
 		$keywords = $site['site_keyword'];
 		$description = $site['site_description'];
-		include template('index', 'index');
+		$data = D('category')->field('catid AS id,catname AS name,parentid,`type`,modelid,listorder,member_publish,pclink,domain,display')->where(array('siteid'=>0))->order('listorder ASC,catid ASC')->select();
+        var_dump($data);
+		//include template('index', 'index');
 	}
 	
 	

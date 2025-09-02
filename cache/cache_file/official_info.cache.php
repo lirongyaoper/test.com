@@ -4,7 +4,7 @@ return array (
 		$("#yzmcms_license").html("<span style=\\"color:blue\\">官方已授权（授权人：刘良顺，授权类型：高级版[终身授权]）</span>");
 		
 	})',
-  'expire' => 1756543740,
-  'mtime' => 1755852540,
+  'expire' => 1757371585,
+  'mtime' => 1756680385,
 );
 ?>
